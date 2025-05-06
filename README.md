@@ -12,7 +12,7 @@ Optimización de hiperparámetros: Realizar una búsqueda sistemática de los hi
 Regularización: Implementar técnicas de regularización, como la disminución de la tasa de aprendizaje, la regularización L1/L2 y la deserción (dropout), para evitar el sobreajuste y mejorar la capacidad del modelo para generalizar en datos nuevos.
 Optimización del rendimiento: Implementar técnicas de optimización del rendimiento, como la paralelización del cómputo y el uso de aceleradores de hardware (por ejemplo, GPU), para mejorar la eficiencia computacional del modelo y reducir los tiempos de entrenamiento e inferencia.
 
-#Mejoras a Implementar
+# Mejoras a Implementar
 Para mejorar la exactitud del modelo al trabajar con los datos (Imagenes), se implementarán las siguientes mejoras:
 
 Ajuste de Hiperparametros
@@ -20,7 +20,7 @@ Learning Rate: No se realizó un ajuste explícito del learning rate en este có
 Cantidad de Capas (CNN) Se definió una arquitectura de red con dos capas convolucionales seguidas de max pooling y dos capas densas para la clasificación.
 Función de Activación Se utilizó la función de activación ReLU en las capas convolucionales y densas, ya que es comúnmente utilizada en arquitecturas de redes neuronales convolucionales debido a su capacidad para manejar el problema de desvanecimiento del gradiente y acelerar el entrenamiento.
 
-#Preprocesamiento
+# Preprocesamiento
 Normalización Se normalizaron los datos dividiendo los valores de píxeles de las imágenes por 255.0, lo que escala los valores de los píxeles al rango [0, 1]. Esto ayuda a estandarizar los datos y acelerar el entrenamiento del modelo.
 *Cargar Incremental * Para manejar grandes conjuntos de datos de manera eficiente, se implementó la carga incremental dividiendo los datos en lotes más pequeños durante el entrenamiento del modelo. Esto se logró al cargar y mezclar los datos por lotes en lugar de cargar todo el conjunto de datos en la memoria al mismo tiempo.
 Regularización y Reducción de Overfitting
