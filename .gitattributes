@@ -1,0 +1,2 @@
+# Trata los ipynb como texto y fuerza finales LF al hacer checkout
+*.ipynb text eol=lf
