@@ -1,7 +1,7 @@
 # Modelo de reconocimiento de imágenes (Animales)
 El presente modelo busca realizar una clasificación de Imágenes respecto a un dataset ya existente. El dataset corresponde a Animales y se poseen 10 tipos de animales, con una cantidad de 28K de datos.
 
-#Objetivos
+# Objetivos
 Se desea Implementar un clasificador de Imágenes en Python utilizando la plataforma de Google Colab, para ello se busca lo siguiente:
 
 Mejora de precisión: Incrementar la precisión del modelo en la clasificación de animales, reduciendo la tasa de errores.
